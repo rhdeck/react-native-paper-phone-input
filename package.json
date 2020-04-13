@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/react-native-paper-phone-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "masked phone input for react-native-paper",
   "main": "index.js",
   "scripts": {
