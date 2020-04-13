@@ -13,6 +13,7 @@ const PaperPhoneInput = ({
   onChangeText,
   masks: propMasks,
   containerStyle = {},
+  initialCountry = "US",
   ...props
 }) => {
   const phoneRef = useRef();
@@ -21,6 +22,9 @@ const PaperPhoneInput = ({
   const themes = isDark ? { theme: DARK_THEME } : {};
   const [extracted, setExtracted] = useState("");
   const [masks, setMasks] = useState(globalMasks);
+  useEffect(() => {
+    if (initialCountry) setCca2(initialCountry);
+  }, [initialCountry]);
   useEffect(() => {
     setMasks({ ...globalMasks, ...propMasks });
   }, [propMasks]);
