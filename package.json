@@ -1,0 +1,24 @@
+{
+  "name": "@raydeck/react-native-paper-phone-input",
+  "version": "1.0.0",
+  "description": "masked phone input for react-native-paper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-native-paper-phone-input"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "peerDependencies": {
+    "@raydeck/react-native-input-mask": "^1.0.0",
+    "react": "^16.13.1",
+    "react-native-paper": "^3.8.0",
+    "react-native-text-input-mask": "^2.0.0"
+  },
+  "dependencies": {
+    "react-native-country-picker-modal": "^1.10.0"
+  }
+}
