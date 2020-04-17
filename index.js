@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { useColorScheme, View } from "react-native";
 import { TextInput } from "react-native-paper";
-import CountryModal from "react-native-country-picker-modal";
+import CountryModal, { DARK_THEME } from "react-native-country-picker-modal";
 import MaskedInput from "react-native-text-input-mask";
 const globalMasks = {
   US: { mask: "+1 ([000]) [000]-[0000]", length: 10, prefix: "+1" },
